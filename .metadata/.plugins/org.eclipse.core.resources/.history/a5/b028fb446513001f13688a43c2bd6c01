@@ -1,0 +1,7 @@
+package com.restservice.controller;
+
+public class Message {
+	
+	public record Greeting(long id, String content) { }
+
+}

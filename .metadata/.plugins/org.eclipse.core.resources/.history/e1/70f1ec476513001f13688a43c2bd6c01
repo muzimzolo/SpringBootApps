@@ -1,0 +1,9 @@
+package com.restservice.greeting;
+
+public class Greeting {
+	
+	public record greeting(long id, String content) {
+		
+	}
+
+}
